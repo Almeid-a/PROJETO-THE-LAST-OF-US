@@ -1,0 +1,205 @@
+@media (max-width: 1280px) {
+    body {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .carrossel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carrossel .descricao {
+        width: 60%;
+        text-align: center;
+    }
+
+    .botoes-carrossel {
+        top: 20%;
+        left: 46%;
+    }
+}
+
+@media (max-width: 768px) {
+    .carrossel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carrossel .descricao {
+        width: 60%;
+        text-align: center;
+    }
+
+    .botoes-carrossel {
+        top: 31%;
+        left: 46%;
+    }
+}
+
+@media (max-width: 650px) {
+    .informacoes .logoHBO{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagem.ativa .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 18%;
+    }
+
+    .carrossel .descricao {
+        width: 60%;
+        text-align: center;
+        top: 35%;
+    }
+
+    .botoes-carrossel {
+        top: 46%;
+        left: 46%;
+    }
+}
+
+@media (max-width: 550px) {
+    .informacoes .logoHBO{
+        max-width: 250px;
+        left: 26%;
+    }
+
+    .imagem.ativa .logo {
+        max-width: 280px;
+        left: 22%;
+    }
+
+    .carrossel .descricao {
+        position: fixed;
+        width: 85%;
+        font-size: 20px;
+        top: 35%;
+        left: 7%;
+    }
+
+    .menu-lateral{
+        position: fixed;
+        min-height: auto;
+        width: 100%;
+        top: 92%;
+    }
+
+    .menu-lateral ul {
+        flex-direction: row;
+    }
+
+    .botoes-carrossel {
+        top: 40%;
+        left: 46%;
+    }
+
+    .carrossel {
+        min-height: 70vh;
+        gap: 50px;
+    }
+
+    body {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 450px) {
+    .informacoes .logoHBO{
+        max-width: 200px;
+        left: 25%;
+    }
+
+    .imagem.ativa .bg {
+        background-size: cover;
+    }
+
+    .imagem.ativa .logo {
+        max-width: 280px;
+        left: 15%;
+        top: 15%;
+    }
+
+    .carrossel .descricao {
+        position: fixed;
+        width: 85%;
+        font-size: 20px;
+        top: 30%;
+        left: 7%;
+    }
+
+    .menu-lateral{
+        position: fixed;
+        min-height: auto;
+        width: 100%;
+        top: 92%;
+    }
+
+    .menu-lateral ul {
+        flex-direction: row;
+    }
+
+    .botoes-carrossel {
+        top: 52%;
+        left: 45%;
+    }
+
+    .carrossel {
+        min-height: 70vh;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 350px) {
+    .informacoes .logoHBO{
+        max-width: 200px;
+        left: 22%;
+    }
+
+    .imagem.ativa .bg {
+        background-size: cover;
+    }
+
+    .imagem.ativa .logo {
+        max-width: 280px;
+        left: 8%;
+        top: 15%;
+    }
+
+    .carrossel .descricao {
+        position: fixed;
+        width: 85%;
+        font-size: 20px;
+        top: 30%;
+        left: 7%;
+    }
+
+    .menu-lateral{
+        position: fixed;
+        min-height: auto;
+        width: 100%;
+        top: 92%;
+        left: 8px;
+    }
+
+    .menu-lateral ul {
+        flex-direction: row;
+    }
+
+    .botoes-carrossel {
+        top: 60%;
+        left: 45%;
+    }
+
+    .carrossel {
+        min-height: 70vh;
+        gap: 50px;
+    }
+}
