@@ -203,3 +203,8 @@
         gap: 50px;
     }
 }
+@media (max-height: 1280px) {
+    .imagem.ativa {
+        background-size: cover;
+    }
+}
